@@ -15,7 +15,26 @@ h1{
     color: #FFF;
 }
 
+.container {
+    padding: 3.5rem 10rem;
+}
+
 .header-container {
     background-color: var(--default-backgound);
     padding: 1rem 9.75rem;
+}
+
+.featured-post {
+    display: flex;
+    align-items: flex-end;
+    background-image: linear-gradient(180deg, #66666600, #000000), url(../assets/image.png);
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.featured-post-title > h2 {
+    font-size: 2rem;
 }
