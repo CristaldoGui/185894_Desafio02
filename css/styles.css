@@ -16,12 +16,16 @@ h1{
 }
 
 .container {
-    padding: 3.5rem 10rem;
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-column-gap: 1.5rem;
+    padding: 3.5rem 8rem;
 }
 
 .header-container {
     background-color: var(--default-backgound);
-    padding: 1rem 9.75rem;
+    padding: 1rem 8rem;
+    box-shadow: 0 .7rem 1.3rem #0000001A;
 }
 
 .featured-post {
@@ -30,11 +34,43 @@ h1{
     background-image: linear-gradient(180deg, #66666600, #000000), url(../assets/image.png);
     background-size: cover;
     color: #FFF;
-    height: 100vh;
+    height: 63vh;
     padding: 1.5rem;
     border-radius: 1rem;
+    opacity: .9;
 }
 
 .featured-post-title > h2 {
     font-size: 2rem;
+}
+
+.posts-title {
+    background-color: var(--default-backgound);
+    color: #FFF;
+    font-size: 1.5;
+    font-weight: 700;
+    padding: .8rem 0 .8rem 1.5rem;
+    border-radius: .8rem;
+    box-shadow: 0 .7rem .7rem #0000001A;
+}
+
+.popular-posts-card {
+    display: flex;
+    padding: 1rem;
+    margin-top: .8rem;
+    border-radius: .7rem;
+    box-shadow: 0 .7rem .7rem #0000001A;
+}
+
+.popular-posts-card > div > h2 {
+    font-size: .9rem;
+}
+
+.popular-posts-card > div > p {
+    color: #616161;
+    font-size: .7rem;
+}
+
+.popular-posts-card > img {
+    margin-right: 1rem;
 }
