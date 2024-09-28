@@ -144,3 +144,30 @@ h1{
     
 }
 
+@media only screen and (max-width: 784px){
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .header-container {
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem .5rem;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-posts-container{
+        margin-top: 1.5rem;
+    }
+
+    .posts-title {
+        font-size: 1.2rem;
+    }
+}
