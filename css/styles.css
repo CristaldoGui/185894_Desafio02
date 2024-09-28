@@ -144,6 +144,14 @@ h1{
     
 }
 
+.container-copyrigth {
+    background-color: var(--default-backgound);
+    text-align: center;
+    color: #FFF;
+    font-size: .7rem;
+    padding: .8rem 0 .8rem 0;
+}
+
 @media only screen and (max-width: 784px){
     h1 {
         font-size: 1.5em;
