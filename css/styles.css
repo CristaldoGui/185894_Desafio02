@@ -45,11 +45,12 @@ h1{
 }
 
 .posts-title {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--default-backgound);
     color: #FFF;
-    font-size: 1.5;
-    font-weight: 700;
-    padding: .8rem 0 .8rem 1.5rem;
+    font-size: 1.5rem;
+    padding: .8rem 1.5rem .8rem 1.5rem;
     border-radius: .8rem;
     box-shadow: 0 .7rem .7rem #0000001A;
 }
@@ -91,3 +92,55 @@ h1{
     color: #616161;
     margin-top: 1rem;
 }
+
+.recent-posts-container {
+    margin-top: 1.5rem;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    margin-top: .7rem;
+}
+
+.card {
+    box-shadow: 0 .7rem 1.3rem #0000001A;
+    border-radius: 1rem;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.card-description {
+    padding: 1rem;
+}
+
+.card-description > p {
+    margin-top: .5rem;
+}
+
+.card-description > .card-categorie {
+    font-size: .8rem;
+    margin-top: 0;
+    color: var(--default-backgound)
+}
+
+.card-description > h2 {
+    margin-top: .5rem;
+}
+
+.text-gray {
+    color: #616161;
+}
+
+.recent-posts-container > .posts-title > p {
+    font-size: 0.87rem;
+    font-weight: 500;
+    text-decoration: underline;
+    
+}
+
