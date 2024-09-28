@@ -74,3 +74,20 @@ h1{
 .popular-posts-card > img {
     margin-right: 1rem;
 }
+
+.categories-container { 
+    margin-top: 1.5rem;
+}
+
+.categories-tags-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #616161;
+    margin-top: 1rem;
+}
